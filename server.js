@@ -201,7 +201,7 @@ app.post("/subscribe", async (req, res) => {
 
     // Send Thank You Email
     const thankYouMail = {
-      from: `"LGS.ai" <${process.env.SENDER_MAIL}>`,
+      from: `"LGSBC" <${process.env.SENDER_MAIL}>`,
       to: email,
       subject: "Thanks for subscribing to LGS!",
       html: `
